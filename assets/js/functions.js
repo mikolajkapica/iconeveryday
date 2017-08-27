@@ -95,6 +95,11 @@ $(document).ready(function(){
     $('#sidebar').toggleClass('visible')
   });
 });
+$(document).ready(function(){
+  $('#hamburger-icon').click(function(){
+    $('body').toggleClass('right')
+  });
+});
 
 // $(document).ready(function(){
 //   $('.link').click(function(){
@@ -163,7 +168,7 @@ $(document).ready(function(){
 //     });
 // });
 $(document).ready(function() {
-    $('body').hide().fadeIn(1000);
+    $('html').hide().fadeIn(1000);
 });
 
 // //smooth scroll
